@@ -1,4 +1,4 @@
-# Command-Shell-Implementation-in-C-
+## Command-Shell-Implementation-in-C-
 
 This program simulates the working of command line interface in Unix-like environment. Implemented Functionalities are as under:
 1. Execute all the External commands (ls, clear, vi etc.)
@@ -10,7 +10,7 @@ This program simulates the working of command line interface in Unix-like enviro
 7. Pipes “|” (multiple) (Ex: ls | grep 'a' | wc)
 
 
- IMPLEMENTATION DETAILS:-
+# IMPLEMENTATION DETAILS:-
 
 The file.cpp contains the main function which takes the input from user and checks it for pipeline. 
 If pipeline exist it processes the data separately else it passes the data to the functions. 
