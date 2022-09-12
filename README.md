@@ -15,10 +15,10 @@ This program simulates the working of command line interface in Unix-like enviro
 The file.cpp contains the main function which takes the input from user and checks it for pipeline. 
 If pipeline exist it processes the data separately else it passes the data to the functions. 
 
-int startprocess(char arr[], int i)
+int startprocess(char arr[], int i):
 This function is defined for checking the REDIRECTIONS. It passes the processed output to function process
 
-int process(char arr[])
+int process(char arr[]):
 This function does the major part of the program. It tokenizes and checks for various possibilities of commands. The types of commands that are checked here:
 1) Internal commands: pwd and cd
 2) echo commands
@@ -27,11 +27,11 @@ This function does the major part of the program. It tokenizes and checks for va
 5) ! : (i) !number (ii) !string (iii) !!
 6) External commands
 
-void phist()
+void phist():
 Prints the history text file on the STDIN
 
-void writehist(char arr[])
+void writehist(char arr[]):
 checks whether the threshold is crossed or not in the text file. If it is than rotates and shifts the data. And then write the character array which is input to the function in the text file.
 
-int check(char c)
+int check(char c):
 This functions takes a char as input and checks whether its a digit or +/-. Returns 1 if it is , else return -1
