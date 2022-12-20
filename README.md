@@ -1,4 +1,4 @@
-# Command-Shell-Implementation-in-CPP-
+# Command Line Interpretor-in-CPP-
 
 This program simulates the working of command line interface in Unix-like environment. Implemented Functionalities are as under:
 1. Execute all the External commands (ls, clear, vi etc.)
